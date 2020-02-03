@@ -1,0 +1,42 @@
+<!-- <form action="rechercher.php" method="post">
+
+	Recherche
+	<input type="text" name="query">
+	<input type="submit" name="valider" value="Envoyer">
+
+</form> -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-15" />
+    <title>Indexation</title>
+    <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/css/mystyle.css"> 
+
+</head>
+<body>
+
+<div class="navbar "> </div>
+
+<div class="col-md-8  col-md-offset-2">
+
+    <div class=" panel-info spacer">
+        <div class="panel-body">
+            <form method="post" action="rechercher.php">
+                <div class="form-group" glyphicon glyphicon-search">
+                    <input type="text" name="query" class="search-query form-control" placeholder="Tapez ici..." required>
+                </div>
+
+                <div >
+                    <button type="submit" class="btn btn-primary btn-md col-md-2  col-md-offset-5">Rechercher</button>
+                </div>
+            </form>
+        </div>
+    </div>
+	
+	
+</div>
+
+</body>
+</html>
